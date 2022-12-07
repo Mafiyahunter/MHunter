@@ -166,7 +166,7 @@ class Main:
 		xx = 999999999
 		idx = "100000"
 		limit = int(input("\033[0;92m [+] ENTER LIMIT \033[0;91m(5000 MAX): \033[0;92m"))
-		if (limit)>5000:
+		if (limit)>10000:
 			exit("\n%s [!] DON'T CROSS THE LIMIT BRO :)"%(R))
 		try:
 			for n in range(limit):
@@ -194,7 +194,7 @@ class Main:
 		xx = 999999
 		idx = "100000000"
 		limit = int(input("\033[0;92m [+] ENTER LIMIT \033[0;91m(5000 MAX): \033[0;92m"))
-		if (limit)>5000:
+		if (limit)>10000:
 			exit("\n%s [!] DON'T CROSS THE LIMIT BRO :)"%(R))
 		try:
 			for n in range(limit):
@@ -224,7 +224,7 @@ class Main:
 		#idx = input("%s [+] ENTER A DIGIT (1-9): %s"%(Y,G))
 		idx = random.choice(["1", "2", "3", "4", "5", "6", "7", "8", "9"])
 		limit = int(input("\033[0;92m [+] ENTER LIMIT \033[0;91m(10000 MAX): \033[0;92m"))
-		if (limit)>10000:
+		if (limit)>40000:
 			exit("\n%s [!] DON'T CROSS THE LIMIT BRO :)"%(R))
 		try:
 			for n in range(limit):
@@ -254,7 +254,7 @@ class Main:
 		#idx = input("%s [+] ENTER A DIGIT (1-9): %s"%(Y,G))
 		idx = random.choice(["1", "2", "3", "4", "5", "6", "7", "8", "9"])
 		limit = int(input("\033[0;92m [+] ENTER LIMIT \033[0;91m(10000 MAX): \033[0;92m"))
-		if (limit)>10000:
+		if (limit)>40000:
 			exit("\n%s [!] DON'T CROSS THE LIMIT BRO :)"%(R))
 		try:
 			for n in range(limit):
@@ -284,7 +284,7 @@ class Main:
 		#idx = input("%s [+] ENTER A DIGIT (1-9): %s"%(Y,G))
 		idx = random.choice(["1", "2", "3", "4", "5", "6", "7", "8", "9"])
 		limit = int(input("\033[0;92m [+] ENTER LIMIT \033[0;91m(10000 MAX): \033[0;92m"))
-		if (limit)>10000:
+		if (limit)>40000:
 			exit("\n%s [!] DON'T CROSS THE LIMIT BRO :)"%(R))
 		try:
 			for n in range(limit):
@@ -316,7 +316,7 @@ class Main:
 		print("%s EXAMPLE  : %s@gmail.com, @yahoo.com, @hotmail.com ETC"%(Y,G))
 		idx = input("%s DOMAIN  : "%(B))
 		limit = int(input("\033[0;92m [+] ENTER LIMIT \033[0;91m(5000 MAX): \033[0;92m"))
-		if (limit)>5000:
+		if (limit)>10000:
 			exit("\n%s [!] DON'T CROSS THE LIMIT BRO :)"%(R))
 		try:
 			for n in range(limit):
@@ -346,7 +346,7 @@ class Main:
 		idx = input("%s [+] ENTER A DIGIT (1-9): %s"%(Y,G))
 		idx = random.choice(["1", "2", "3", "4", "5", "6", "7", "8", "9"])
 		limit = int(input("\033[0;92m [+] ENTER LIMIT \033[0;91m(10000 MAX): \033[0;92m"))
-		if (limit)>10000:
+		if (limit)>40000:
 			exit("\n%s [!] DON'T CROSS THE LIMIT BRO :)"%(R))
 		try:
 			for n in range(limit):
@@ -376,7 +376,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 		])
 		sys.stdout.write(
-			"\r\r %s[>_] [HAMII] : %s/%s -> \033[0;92m [ HAMII-OK:%s ]- \033[0;93m[HAMII-CP:%s ]"%(B,self.loop, len(self.id), len(self.ok), len(self.cp))
+			"\r\r %s[>_] [MAFIYA] : %s/%s -> \033[0;92m [ MAFIYA-OK:%s ]- \033[0;93m[MAFIYA-CP:%s ]"%(B,self.loop, len(self.id), len(self.ok), len(self.cp))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
